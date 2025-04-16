@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .imagem-quadrada {
+            border-radius: 15px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-size: 1.2em;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Yuri Roveri Françoso</h1>
+    <p>Olá! Meu nome é Yuri Roveri Françoso, tenho 32 anos e moro em Araraquara-SP. Meus interesses incluem atualmente a área de programação, tatuagem, esportes em geral e momentos com a família.</p>
+
+    <button id="messageButton">Clique para ver uma mensagem!</button>
+    <div id="message"></div>
+
+    <h2>Meus Hobbies</h2>
+    <div style="text-align: center;">
+        <ul>
+            <li>Tatuagem</li>
+            <li>Esportes</li>
+            <li>Games</li>
+        </ul>
+    </div>
+    
+    <div style="text-align: center;">
+        <img src="game.jpg" alt="Descrição do Hobby" id="hobbyImage">
+    </div>
+
+    <h2>Países que Gostaria de Visitar</h2>
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Imagem</th>
+        </tr>
+        <tr>
+            <td><h2>Espanha</h2></td>
+            <td><img src="espanha.jpg" alt="País 1" class="imagem-quadrada"></td>
+        </tr>
+        <tr>
+            <td><h2>Argentina</h2></td>
+            <td><img src="argentina.jpg" alt="País 2" class="imagem-quadrada"></td>
+        </tr>
+        <tr>
+            <td><h2>Malta</h2></td>
+            <td><img src="malta.jpg" alt="País 3" class="imagem-quadrada"></td>
+        </tr>
+    </table>
+
+    <p><a href="https://www.formula1.com/" target="_blank">Visite meu site favorito!</a></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
