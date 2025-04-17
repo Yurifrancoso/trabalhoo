@@ -58,7 +58,7 @@ th {
 }
 
 table tr:nth-child(even) {
-    background-color: 84afee; /* Cor de fundo para linhas pares */
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares */
 }
 
 a {
@@ -69,4 +69,3 @@ a {
 a:hover {
     color: #2980b9; /* Muda a cor do link ao passar o mouse */
 }
-
